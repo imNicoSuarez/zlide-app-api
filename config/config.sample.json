@@ -14,8 +14,8 @@
 
   "auth":{
     "facebook":{
-      "appId" : "628913820518911",
-      "appSecret" : "dbb6a727455882ac3aa09c96820cda7c"
+      "appId" : "<APPID>",
+      "appSecret" : "<APPSECRET>"
     }
   }
 }
