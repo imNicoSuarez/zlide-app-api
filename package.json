@@ -1,0 +1,31 @@
+{
+  "name": "ZlideApp",
+  "version": "0.0.0",
+  "description": "This is an Api of ZlideApp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js --config config/config.json"
+  },
+  "dependencies": {
+    "configure":"~0.0.1",
+    "restify" : "2.7.0",
+    "mongoose" : "3.8.8",
+    "passport" : "0.2.0",
+    "passport-facebook" : "1.0.3"
+  },
+  "config" : {
+    "notFound" : "throw",
+    "defaultConfigFile" : "config/config.json",
+    "commandLineSwitchName" : "config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:imNicoSuarez/zlide-app-api.git"
+  },
+  "keywords": [
+    "Api",
+    "ZlideApp"
+  ],
+  "author": "Nicolas Suarez",
+  "license": "BSD"
+}

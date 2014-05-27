@@ -1,0 +1,12 @@
+{
+  "users" : "/users",
+  "user" : "/users/:id",
+  "presentations" : "/users/:user_id/presentations",
+  "presentation" : "/users/:user_id/presentations/:id",
+  "pages" : "/users/:user_id/presentations/:presentation_id/pages",
+  "page" : "/users/:user_id/presentations/:presentation_id/pages/:id",
+  "auth":{
+    "facebook_login": "/auth/facebook/login",
+    "facebook_callback": "/auth/facebook/callback"
+  }
+}

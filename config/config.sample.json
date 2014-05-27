@@ -1,0 +1,21 @@
+{
+  "app" : {
+    "name" : "ZlideApp",
+    "version" : "0.0.1"
+  },
+  "server" : {
+    "port" : "4000",
+    "host" : "http://localhost:4000"
+  },
+  "mongodb" : {
+    "name": "zlideapp_db",
+    "server" : "mongodb://localhost:27017/zlideapp_db"
+  },
+
+  "auth":{
+    "facebook":{
+      "appId" : "628913820518911",
+      "appSecret" : "dbb6a727455882ac3aa09c96820cda7c"
+    }
+  }
+}
